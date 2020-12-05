@@ -1,19 +1,16 @@
-export const Header = () => {
-  var e = new Date();
-  var date = e.toLocaleDateString("tr-TR");
-  var time = e.toLocaleTimeString("tr-TR");
-  var day = e.toLocaleString("tr-TR", { weekday: "long" });
+import { Zaman } from "./Zaman";
 
+export const Header = () => {
   return (
-    <div className="header">
+    <header>
       <div className="header-title">
         <h1 className="title">To Do</h1>
       </div>
       <div className="header-date">
         <span className="zaman">
-          {date} {day} - {time}
+          <Zaman />
         </span>
       </div>
-    </div>
+    </header>
   );
 };
