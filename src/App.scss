@@ -18,21 +18,8 @@ header {
     border-bottom: 1px solid rgb(66, 66, 66);
 
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    text-transform: uppercase;
-    font-size: 10vw;
-    background: linear-gradient(
-      90deg,
-      #ff5555 -8.25%,
-      #0000ff 2.57%,
-      #00bf66 33.08%,
-      #b0b305 51.57%
-    );
-    color: #000;
-    mix-blend-mode: exclusion;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 20vw;
+    font-weight: 900;
   }
   span.zaman {
     display: inline-block;
