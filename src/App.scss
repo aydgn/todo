@@ -6,6 +6,24 @@ body {
   background-color: #fff;
 }
 
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: white;
+  h1 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(66, 66, 66);
+  }
+  span.zaman {
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    color: #ccc;
+  }
+}
+
 .todo-app {
   margin: auto;
   text-align: center;
@@ -34,19 +52,4 @@ button {
   font-weight: 900;
   margin-right: 5px;
   margin-left: 5px;
-}
-span.zaman {
-  display: inline-block;
-  border: 1px solid #ccc;
-  padding: 5px;
-  font-weight: bold;
-}
-header {
-  margin: 0;
-  padding: 0;
-  background-color: #ccc;
-}
-header h1 {
-  margin: 0;
-  padding: 0;
 }
