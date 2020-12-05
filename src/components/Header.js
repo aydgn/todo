@@ -1,6 +1,6 @@
-import { Zaman } from "./Zaman";
+import Zaman from "./Zaman";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header>
       <h1 className="title">To Do</h1>
@@ -12,3 +12,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

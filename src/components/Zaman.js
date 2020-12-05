@@ -1,4 +1,4 @@
-export const Zaman = () => {
+const Zaman = () => {
   const time = () => {
     const e = new Date();
     const tarih = e.toLocaleDateString("tr-TR");
@@ -14,3 +14,4 @@ export const Zaman = () => {
 
   return <div>{time()}</div>;
 };
+export default Zaman;

@@ -1,5 +1,5 @@
 import "./App.scss";
-import { Header } from "./components/Header";
+import Header from "./components/Header";
 import TodoForm from "./components/TodoForm";
 
 function App() {
