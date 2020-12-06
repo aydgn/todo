@@ -30,10 +30,12 @@ header {
 
 .todo-form {
   display: flex;
+  margin-top: 10px;
 }
 .todo-input {
   flex: 1;
   margin-left: 5px;
+  border-radius: 15px;
 }
 .todo-button {
   float: right;
@@ -43,9 +45,7 @@ header {
   margin-right: 5px;
   margin-left: 5px;
   font-size: 1rem;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0px;
-  border-radius: 0;
+  border-radius: 15px;
 }
 
 .todo-list {
@@ -53,13 +53,18 @@ header {
   margin-left: 5px;
   padding: 0;
   .todo {
+    border: 1px solid #ccc;
+    border-radius: 15px;
     display: flex;
+    justify-content: center;
   }
 
   li.todo-item {
     flex: 1;
     text-align: left;
     list-style-type: none;
+    padding: 15px;
+    font-size: 20px;
   }
   button {
     font-size: 20px;
