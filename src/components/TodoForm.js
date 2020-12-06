@@ -7,8 +7,8 @@ function TodoForm(props) {
 
   // inputta değişiklik olunca çalışacak func
   const handleChange = (e) => {
-		setInput(e.target.value);
-		// submit edilecek değeri setInput değişkenine ata dedik
+    setInput(e.target.value);
+    // submit edilecek değeri setInput değişkenine ata dedik
   };
 
   // submit butonuna basınca yapılacak şey için func
@@ -31,9 +31,11 @@ function TodoForm(props) {
           type="text"
           name="todo-input"
           className="todo-input"
-          placeholder="Süt al"
+          placeholder=""
           value={input} // state de tanımladığımız input
           onChange={handleChange}
+          autoFocus
+          autoComplete="false"
         />
         <button className="todo-button">+</button>
       </form>
