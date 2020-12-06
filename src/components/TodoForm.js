@@ -18,19 +18,22 @@ function TodoForm({ inputText, setInputText, todos, setTodos }) {
   };
 
   return (
-    <div>
-      <form className="todo-form">
+    <div className="container-fluid">
+      <form className="d-flex mt-3">
         <input
           type="text"
           name="todo-input"
-          className="todo-input"
+          className="form-control p-4 ml-2"
           placeholder=""
           onChange={inputTextHandler}
           autoFocus
           autoComplete="off"
           value={inputText}
         />
-        <button className="todo-button" onClick={submitButtonHandler}>
+        <button
+          className="btn btn-dark px-5 mx-2"
+          onClick={submitButtonHandler}
+        >
           ➕
         </button>
       </form>

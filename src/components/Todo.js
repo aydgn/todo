@@ -8,12 +8,12 @@ const Todo = ({ text, todo, todos, setTodos }) => {
     console.log(todo);
   };
   return (
-    <div className="todo">
+    <div className="todo alert alert-light mt-2 d-flex">
       <li className="todo-item">{text}</li>
-      <button className="complete" onClick={completeHandler}>
+      <button className="btn btn-success" onClick={completeHandler}>
         ✔️
       </button>
-      <button className="delete" onClick={deleteHandler}>
+      <button className="btn btn-danger" onClick={deleteHandler}>
         🗑️
       </button>
     </div>

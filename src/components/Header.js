@@ -2,8 +2,10 @@ import ZamanBar from "./ZamanBar";
 
 const Header = () => {
   return (
-    <header>
-      <h1 className="title">TO DO LIST</h1>
+    <header className="m-0 pt-5 bg-dark text-white">
+      <h1 className="display-1 text-center font-weight-bold border-bottom border-secondary">
+        TO DO
+      </h1>
       <div className="header-date">
         <span className="zaman">
           <ZamanBar />

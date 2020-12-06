@@ -26,12 +26,11 @@ const ZamanBar = () => {
   });
 
   return (
-    <div>
+    <div className="text-center pb-2">
       <span
         onClick={() => {
           setname(prompt("Adın ne şekerlik?"));
-          }
-        }
+        }}
       >
         Merhaba, {name}.
       </span>

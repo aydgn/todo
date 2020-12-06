@@ -2,7 +2,7 @@ import Todo from "./Todo";
 
 function TodoList({ todos, setTodos }) {
   return (
-    <div className="todo-container">
+    <div className="">
       <ul className="todo-list">
         {todos.map((todo) => (
           <Todo
