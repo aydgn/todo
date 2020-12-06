@@ -1,12 +1,25 @@
+import React, { useState } from "react";
 import "./App.scss";
 import Header from "./components/Header";
 import TodoForm from "./components/TodoForm";
+import TodoList from "./components/TodoList";
 
 function App() {
+  const [inputText, setInputText] = useState("");
+  // inputtext form un içindeki veriyi setinputtext ise değişen veriyi çalıştran function
+  const [todos, setTodos] = useState([]);
+
   return (
     <div className="todo-app">
       <Header />
-      <TodoForm />
+      <TodoForm
+        todos={todos}
+        inputText={inputText}
+        setTodos={setTodos}
+        setInputText={setInputText}
+      />{" "}
+      {/* props ile app.js den TodoForm'a veri aktarıyoruz. */}
+      <TodoList />
     </div>
   );
 }
