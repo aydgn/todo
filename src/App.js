@@ -19,7 +19,7 @@ function App() {
         setInputText={setInputText}
       />{" "}
       {/* props ile app.js den TodoForm'a veri aktarıyoruz. */}
-      <TodoList />
+      <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }

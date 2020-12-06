@@ -1,13 +1,12 @@
-import TodoList from "./TodoList";
+import React from "react";
 
-const TodoList = () => {
-  console.log();
-
+const Todo = ({ text }) => {
   return (
-    <div>
-      <TodoList />
+    <div className="todo">
+      <li className="todo-item">{text}</li>
+      <button className="tamamla">✔️</button>
+      <button className="sil">❌</button>
     </div>
   );
 };
-
-export default TodoList;
+export default Todo;

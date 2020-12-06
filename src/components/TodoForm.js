@@ -31,7 +31,7 @@ function TodoForm({ inputText, setInputText, todos, setTodos }) {
           value={inputText}
         />
         <button className="todo-button" onClick={submitButtonHandler}>
-          +
+          ➕
         </button>
       </form>
     </div>
