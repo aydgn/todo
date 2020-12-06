@@ -1,4 +1,4 @@
-import Zaman from "./Zaman";
+import ZamanBar from "./ZamanBar";
 
 const Header = () => {
   return (
@@ -6,7 +6,7 @@ const Header = () => {
       <h1 className="title">TO DO LIST</h1>
       <div className="header-date">
         <span className="zaman">
-          <Zaman />
+          <ZamanBar />
         </span>
       </div>
     </header>

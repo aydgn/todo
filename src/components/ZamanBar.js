@@ -30,7 +30,8 @@ const ZamanBar = () => {
       <span
         onClick={() => {
           setname(prompt("Adın ne şekerlik?"));
-        }}
+          }
+        }
       >
         Merhaba, {name}.
       </span>
