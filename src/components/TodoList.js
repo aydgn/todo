@@ -1,7 +1,6 @@
-import React from "react";
 import Todo from "./Todo";
 
-function TodoList({ todo, todos, setTodos }) {
+function TodoList({ todos, setTodos }) {
   return (
     <div className="todo-container">
       <ul className="todo-list">
@@ -12,6 +11,7 @@ function TodoList({ todo, todos, setTodos }) {
             id={todo.id}
             setTodos={setTodos}
             todo={todo}
+            todos={todos}
           />
         ))}
       </ul>

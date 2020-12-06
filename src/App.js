@@ -14,8 +14,8 @@ function App() {
       <Header />
       <TodoForm
         todos={todos}
-        inputText={inputText}
         setTodos={setTodos}
+        inputText={inputText}
         setInputText={setInputText}
       />{" "}
       {/* props ile app.js den TodoForm'a veri aktarıyoruz. */}
