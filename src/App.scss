@@ -62,9 +62,13 @@ li.todo-item {
   flex: 1;
   list-style-type: none;
   align-self: stretch;
-  
 }
 .todo-list {
   padding-inline-start: 0;
   line-height: 45px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
