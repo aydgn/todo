@@ -35,7 +35,7 @@ function TodoForm(props) {
           value={input} // state de tanımladığımız input
           onChange={handleChange}
           autoFocus
-          autoComplete="false"
+          autoComplete="off"
         />
         <button className="todo-button">+</button>
       </form>
