@@ -31,10 +31,10 @@ function TodoForm({ inputText, setInputText, todos, setTodos }) {
           value={inputText}
         />
         <button
-          className="btn btn-dark px-5 mx-2"
+          className="btn btn-dark btn-lg px-5 mx-2"
           onClick={submitButtonHandler}
         >
-          ➕
+          +
         </button>
       </form>
     </div>
