@@ -21,20 +21,20 @@ const Todo = ({ text, todo, todos, setTodos }) => {
     console.log(todo);
   };
   return (
-    <div className="todo bg-light px-4 p-2 d-flex shadow-sm">
+    <div className="todo bg-light mx-3 my-1 d-flex shadow-sm">
       <li className={`todo-item m-2 ${todo.completed ? "completed" : ""}`}>
         {text}
       </li>
       <button
         type="button"
-        className={`btn btn-success px-3 shadow-sm`}
+        className={`btn btn-sm btn-success px-3 mx-1 shadow-sm`}
         onClick={completeHandler}
       >
         ✔️
       </button>
       <button
         type="button"
-        className="btn btn-danger px- shadow-sm"
+        className="btn btn-sm btn-danger px-3 shadow-sm"
         onClick={deleteHandler}
       >
         🗑️
