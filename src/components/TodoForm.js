@@ -23,7 +23,7 @@ function TodoForm({ inputText, setInputText, todos, setTodos }) {
         <input
           type="text"
           name="todo-input"
-          className="form-control p-4 ml-2"
+          className="form-control ml-2"
           placeholder=""
           onChange={inputTextHandler}
           autoFocus
@@ -31,7 +31,8 @@ function TodoForm({ inputText, setInputText, todos, setTodos }) {
           value={inputText}
         />
         <button
-          className="btn btn-dark btn-lg px-5 mx-2"
+          type="submit"
+          className="submit btn btn-dark btn-lg px-5 mx-2"
           onClick={submitButtonHandler}
         >
           +

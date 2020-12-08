@@ -26,12 +26,17 @@ const Todo = ({ text, todo, todos, setTodos }) => {
         {text}
       </li>
       <button
+        type="button"
         className={`btn btn-success px-3 shadow-sm`}
         onClick={completeHandler}
       >
         ✔️
       </button>
-      <button className="btn btn-danger px-3 shadow-sm" onClick={deleteHandler}>
+      <button
+        type="button"
+        className="btn btn-danger px- shadow-sm"
+        onClick={deleteHandler}
+      >
         🗑️
       </button>
     </div>
