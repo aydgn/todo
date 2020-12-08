@@ -72,11 +72,3 @@ li.todo-item {
   text-decoration: line-through;
   opacity: 0.5;
 }
-
-//
-@media screen and (min-width: 480px) {
-  button.submit {
-    padding-right: 2rem !important;
-    padding-left: 2rem !important;
-  }
-}

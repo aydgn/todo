@@ -32,7 +32,7 @@ function TodoForm({ inputText, setInputText, todos, setTodos }) {
         />
         <button
           type="submit"
-          className="submit btn btn-dark btn-lg px-5 mx-2"
+          className="btn btn-dark btn-lg m-3 position-absolute bottom-0 end-0 border rounded-circle"
           onClick={submitButtonHandler}
         >
           +
