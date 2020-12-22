@@ -10,7 +10,7 @@ const ZamanBar = () => {
       minute: "2-digit",
     });
     const gun = d.toLocaleString("tr-TR", { weekday: "long" });
-    const hepsi = ` ${tarih} | ${saat} | ${gun}`;
+    const hepsi = ` | ${tarih} | ${saat} | ${gun}`;
     return hepsi;
   };
 
@@ -28,6 +28,7 @@ const ZamanBar = () => {
   return (
     <div className="text-center pb-2">
       <span
+        className="font-weight-lighter"
         onClick={() => {
           setname(prompt("Adın ne şekerlik?"));
         }}

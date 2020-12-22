@@ -11,10 +11,12 @@ function TodoForm({ inputText, setInputText, todos, setTodos }) {
       {
         text: inputText,
         completed: false,
-        id: Math.random() * 1000,
+        id: Math.floor(Math.random() * 1000),
       },
     ]);
-    setInputText("");
+    setInputText(""); // clears input value after submit
+
+    // save local storage
   };
 
   return (

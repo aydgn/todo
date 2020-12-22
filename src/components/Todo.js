@@ -1,6 +1,7 @@
 import React from "react";
 
 const Todo = ({ text, todo, todos, setTodos }) => {
+  // complete button function ()
   const completeHandler = () => {
     setTodos(
       todos.map((item) => {
@@ -15,6 +16,7 @@ const Todo = ({ text, todo, todos, setTodos }) => {
     );
   };
 
+  // delete butonu fonksiyonu
   const deleteHandler = () => {
     setTodos(todos.filter((el) => el.id !== todo.id));
 
